@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)",
+      "Bash(git:*)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(sleep:*)",
+      "Read(./**)",
+      "Edit(./**)",
+      "Write(./**)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}

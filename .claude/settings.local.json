@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: tool use demo\n\n- Weather chatbot demonstrating agent loop pattern\n- Docs with flow diagrams explaining tool_use → execute → end_turn cycle\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(ln:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 10 npm run dev:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "WebSearch"
+    ]
+  }
+}
