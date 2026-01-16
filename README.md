@@ -7,16 +7,17 @@ Hands-on learning with the Claude API and Agent SDK, prepare a weekend hackthon.
 | Demo                      | What is covered                                    |
 |---------------------------|----------------------------------------------------|
 | [tool-use](./tool-use/)   | Agent loop pattern: `tool_use` → execute → `end_turn` |
-| [streaming](./streaming)  | use server event                                     |
+| [streaming](./streaming/) | Server-sent events (SSE) for real-time responses   |
+| [claude.ai](./claude.ai/) | Full chat app: streaming, artifacts, memory, projects, file uploads |
 
 ## Roadmap
 
 - [x] Tool use / agent loop
-- [x] Streaming
+- [x] Streaming (SSE)
 - [x] SDK comparison (Client vs Agent)
 - [x] Parallel tool calls
-- [ ] MCP servers
-- [ ] Save token comsumptions, 5 demos cost me 0.92 $ 
+- [x] Full chat app (claude.ai clone)
+- [ ] MCP servers 
 
 ## References
 
